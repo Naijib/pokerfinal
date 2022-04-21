@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue;
+}
+
+h1{
+    color: midnightblue;
+    font-size:25px;
+}
+
+button{
+    background-color:#ededed;
+    border-radius:5px;
+    border:1px solid #d6bcd6;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+}
+
+input{
+    background-color: navy;
+    color: aliceblue;
+    border-radius:5px;
+    size: 20px;
+    margin-top: 10px;
+}
+
+div{
+    margin-top: 10px;
+    justify-content:space-around;
+    list-style-type:none;
+}
+

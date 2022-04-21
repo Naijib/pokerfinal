@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The poker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body style="text-align: center; font-family: sans-serif">
+    <h1>The poker</h1>
+    <form>
+        <input type="button" value="Se connecter" onclick="sendForm()">
+    </form>
+    <p id="p1">Votre choix</p>
+    <div>
+        <button id="button0" onclick="pokerChoice(0)" disabled="true">0</button> <button id="button1" disabled="true" onclick="pokerChoice(1)">1</button> <button id="button2" disabled="true" onclick="pokerChoice(2)">2</button>
+        <button id="button3" disabled="true" onclick="pokerChoice(3)">3</button> <button id="button5" disabled="true" onclick="pokerChoice(5)">5</button> <button id="button8" disabled="true" onclick="pokerChoice(8)">8</button>
+    </div>
+    <div>
+        <button id="buttonFinal" onclick="moyenne()">Voir le resultat</button></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
